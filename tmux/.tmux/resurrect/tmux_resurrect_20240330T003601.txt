@@ -1,0 +1,36 @@
+pane	BCA	1	0	:-	0	~/P/letter-credit-bca	:/home/djlie98/Projects/letter-credit-bca	1	fish	:
+pane	BCA	2	1	:*	0	~/P/d/b/s/post_processing	:/home/djlie98/Projects/datasaur-toolbox/bca/surat-instruksi/post_processing	1	fish	:
+pane	BCA	2	1	:*	1	~/P/d/b/s/p/on-premise	:/home/djlie98/Projects/datasaur-toolbox/bca/surat-instruksi/post_processing/on-premise	0	fish	:
+pane	base	1	0	:-	0	v ~/P/vulcan	:/home/djlie98/Projects/vulcan	1	nvim	:/squashfs-root/usr/bin/nvim
+pane	base	2	1	:*	0	/e/ssh	:/etc/ssh	1	fish	:
+pane	base	2	1	:*	1	~/P/v/vulcan-frontend	:/home/djlie98/Projects/vulcan/vulcan-frontend	0	fish	:
+pane	base	2	1	:*	2	~/P/v/vulcan-backend	:/home/djlie98/Projects/vulcan/vulcan-backend	0	fish	:
+pane	base	3	0	:	0	~	:/home/djlie98	1	fish	:[atuin] <defunct>
+pane	config	1	0	:-	0	~	:/home/djlie98	1	fish	:
+pane	config	2	1	:*	0	~	:/home/djlie98	1	fish	:
+pane	helm	1	0	:-	0	k9s ~/P/datasaur-helm-chart	:/home/djlie98/Projects/datasaur-helm-chart	1	k9s	:k9s
+pane	helm	2	1	:*	0	v ~	:/home/djlie98	1	nvim	:/squashfs-root/usr/bin/nvim
+pane	kontext	1	1	:*	0	v ~/P/datasaur-kontext	:/home/djlie98/Projects/datasaur-kontext	0	nvim	:/squashfs-root/usr/bin/nvim
+pane	kontext	1	1	:*	1	~/P/datasaur-kontext	:/home/djlie98/Projects/datasaur-kontext	0	fish	:[atuin] <defunct>
+pane	kontext	1	1	:*	2	~/P/d/on-premise	:/home/djlie98/Projects/datasaur-kontext/on-premise	1	fish	:[atuin] <defunct>
+pane	kontext	2	0	:-	0	~/P/d/b/s/post_processing	:/home/djlie98/Projects/datasaur-toolbox/bca/surat-instruksi/post_processing	1	fish	:
+pane	terraform	1	0	:-	0	v ~/	:/home/djlie98	1	nvim	:/squashfs-root/usr/bin/nvim
+pane	terraform	2	1	:*	0	~	:/home/djlie98	1	fish	:[atuin] <defunct>
+pane	terraform	3	0	:	0	~	:/home/djlie98	1	fish	:
+pane	vw	1	1	:*	0	~	:/home/djlie98	1	fish	:
+window	BCA	1	:LC	0	:-	cdfe,149x38,0,0,1	off
+window	BCA	2	:PostPro	1	:*	a54a,149x38,0,0{74x38,0,0,2,74x38,75,0,3}	off
+window	base	1	:nvim	0	:-	c401,187x45,0,0,4	:
+window	base	2	:processes	1	:*	ac9c,187x45,0,0[187x22,0,0{93x22,0,0,5,93x22,94,0,6},187x22,0,23,7]	off
+window	base	3	:github	0	:	c405,187x45,0,0,8	off
+window	config	1	:nvim	0	:-	ce06,149x38,0,0,9	off
+window	config	2	:tmux	1	:*	672f,149x38,0,0,10	off
+window	helm	1	:k9s	0	:-	6230,187x45,0,0,11	off
+window	helm	2	:nvim	1	:*	e22f,187x45,0,0,20	:
+window	kontext	1	:GHK	1	:*	4c1c,187x45,0,0{93x45,0,0,12,93x45,94,0[93x22,94,0,13,93x22,94,23,14]}	off
+window	kontext	2	:fish	0	:-	6234,187x45,0,0,15	:
+window	terraform	1	:	0	:-	6236,187x45,0,0,17	off
+window	terraform	2	:fish	1	:*	6237,187x45,0,0,18	:
+window	terraform	3	:fish	0	:	6238,187x45,0,0,19	:
+window	vw	1	:	1	:*	6735,149x38,0,0,16	off
+state	helm	base

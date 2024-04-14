@@ -1,0 +1,26 @@
+pane	BCA	1	0	:-	0	[daniel-wor] v ~/P/letter-credit-bca	:/home/djlie98/Projects/letter-credit-bca	1	fish	:
+pane	BCA	2	1	:*	0	[daniel-wor] ~/P/d/b/s/post_processing	:/home/djlie98/Projects/datasaur-toolbox/bca/surat-instruksi/post_processing	1	fish	:[fish] <defunct>
+pane	BCA	2	1	:*	1	[daniel-wor] ~/P/d/b/s/p/on-premise	:/home/djlie98/Projects/datasaur-toolbox/bca/surat-instruksi/post_processing/on-premise	0	fish	:[fish] <defunct>
+pane	base	1	0	:-	0	[daniel-wor] ~/P/vulcan	:/home/djlie98/Projects/vulcan	1	fish	:[fish] <defunct>
+pane	base	2	1	:*	0	[daniel-wor] ~/P/vulcan	:/home/djlie98/Projects/vulcan	1	fish	:
+pane	base	2	1	:*	1	[daniel-wor] ~/P/v/vulcan-frontend	:/home/djlie98/Projects/vulcan/vulcan-frontend	0	fish	:
+pane	base	2	1	:*	2	[daniel-wor] ~/P/v/vulcan-backend	:/home/djlie98/Projects/vulcan/vulcan-backend	0	fish	:
+pane	base	3	0	:	0	[daniel-wor] ~	:/home/djlie98	1	fish	:
+pane	config	1	0	:-	0	[daniel-wor] ~	:/home/djlie98	1	fish	:
+pane	config	2	1	:*	0	[daniel-wor] v ~	:/home/djlie98	1	nvim	:/squashfs-root/usr/bin/nvim
+pane	helm	1	1	:*	0	[daniel-wor] ~/P/datasaur-helm-chart	:/home/djlie98/Projects/datasaur-helm-chart	1	fish	:
+pane	kontext	1	1	:*	0	[daniel-wor] ~/P/datasaur-kontext	:/home/djlie98/Projects/datasaur-kontext	1	fish	:
+pane	kontext	2	0	:-	0	[daniel-wor] ~/P/d/b/s/post_processing	:/home/djlie98/Projects/datasaur-toolbox/bca/surat-instruksi/post_processing	1	fish	:
+pane	vw	1	1	:*	0	[daniel-wor] ~	:/home/djlie98	1	fish	:
+window	BCA	1	:LC	0	:-	c3fe,187x45,0,0,1	off
+window	BCA	2	:PostPro	1	:*	7ac0,187x45,0,0{93x45,0,0,2,93x45,94,0,3}	off
+window	base	1	:fish	0	:-	c401,187x45,0,0,4	:
+window	base	2	:processes	1	:*	20ca,149x38,0,0[149x18,0,0{74x18,0,0,5,74x18,75,0,6},149x19,0,19,7]	off
+window	base	3	:github	0	:	c405,187x45,0,0,8	off
+window	config	1	:nvim	0	:-	c406,187x45,0,0,9	off
+window	config	2	:tmux	1	:*	622f,187x45,0,0,10	off
+window	helm	1	:	1	:*	6231,187x45,0,0,12	off
+window	kontext	1	:GHK	1	:*	6232,187x45,0,0,13	off
+window	kontext	2	:fish	0	:-	6233,187x45,0,0,14	:
+window	vw	1	:	1	:*	6234,187x45,0,0,15	off
+state	config	BCA

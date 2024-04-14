@@ -1,0 +1,40 @@
+pane	BCA	1	0	:-	0	[daniel-wor] ~/P/letter-credit-bca	:/home/djlie98/Projects/letter-credit-bca	1	fish	:
+pane	BCA	2	1	:*	0	[daniel-wor] ~/P/d/b/s/post_processing	:/home/djlie98/Projects/datasaur-toolbox/bca/surat-instruksi/post_processing	1	fish	:
+pane	BCA	2	1	:*	1	[daniel-wor] ~/P/d/b/s/p/on-premise	:/home/djlie98/Projects/datasaur-toolbox/bca/surat-instruksi/post_processing/on-premise	0	fish	:
+pane	base	1	1	:*	0	[daniel-wor] ~/.config	:/home/djlie98/.config	1	fish	:
+pane	base	2	0	:-	0	[daniel-wor] /e/ssh	:/etc/ssh	1	fish	:
+pane	base	2	0	:-	1	[daniel-wor] ~/P/v/vulcan-frontend	:/home/djlie98/Projects/vulcan/vulcan-frontend	0	fish	:
+pane	base	2	0	:-	2	[daniel-wor] ~/P/v/vulcan-backend	:/home/djlie98/Projects/vulcan/vulcan-backend	0	fish	:
+pane	base	3	0	:	0	[daniel-wor] ~	:/home/djlie98	1	fish	:
+pane	config	1	0	:-	0	[daniel-wor] ~	:/home/djlie98	1	fish	:
+pane	config	2	1	:*	0	[daniel-wor] ~	:/home/djlie98	1	fish	:
+pane	helm	1	0	:-	0	[daniel-wor] ~/P/datasaur-helm-chart	:/home/djlie98/Projects/datasaur-helm-chart	1	fish	:
+pane	helm	2	1	:*	0	[daniel-wor] ~	:/home/djlie98	1	fish	:
+pane	kontext	1	1	:*	0	[daniel-wor] ~/P/datasaur-kontext	:/home/djlie98/Projects/datasaur-kontext	0	fish	:
+pane	kontext	1	1	:*	1	[daniel-wor] ~/P/datasaur-kontext	:/home/djlie98/Projects/datasaur-kontext	0	fish	:
+pane	kontext	1	1	:*	2	[daniel-wor] ~/P/d/on-premise	:/home/djlie98/Projects/datasaur-kontext/on-premise	1	fish	:
+pane	kontext	2	0	:-	0	[daniel-wor] ~/P/d/b/s/post_processing	:/home/djlie98/Projects/datasaur-toolbox/bca/surat-instruksi/post_processing	1	fish	:
+pane	terraform	1	0	:-	0	[daniel-wor] ~	:/home/djlie98	1	fish	:
+pane	terraform	2	1	:*	0	[daniel-wor] ~	:/home/djlie98	1	fish	:
+pane	terraform	3	0	:	0	[daniel-wor] ~	:/home/djlie98	1	fish	:
+pane	uts	1	1	:*	0	[daniel-wor] v . ~/P/p/u/sim	:/home/djlie98/Projects/petra/uts/sim	1	nvim	:/squashfs-root/usr/bin/nvim .
+pane	uts	1	1	:*	1	[daniel-wor] ~/P/p/u/sim	:/home/djlie98/Projects/petra/uts/sim	0	fish	:
+pane	uts	1	1	:*	2	[daniel-wor] ~/P/p/u/sim	:/home/djlie98/Projects/petra/uts/sim	0	fish	:
+pane	vw	1	1	:*	0	[daniel-wor] ~	:/home/djlie98	1	fish	:
+window	BCA	1	:LC	0	:-	aebe,133x31,0,0,1	off
+window	BCA	2	:PostPro	1	:*	fd5a,133x31,0,0{66x31,0,0,2,66x31,67,0,3}	off
+window	base	1	:fish	1	:*	ce01,149x38,0,0,4	:
+window	base	2	:processes	0	:-	4591,149x38,0,0[149x19,0,0{75x19,0,0,5,73x19,76,0,6},149x18,0,20,7]	off
+window	base	3	:github	0	:	aec5,133x31,0,0,8	off
+window	config	1	:nvim	0	:-	aec6,133x31,0,0,9	off
+window	config	2	:tmux	1	:*	578f,133x31,0,0,10	off
+window	helm	1	:k9s	0	:-	5790,133x31,0,0,11	off
+window	helm	2	:fish	1	:*	5791,133x31,0,0,12	:
+window	kontext	1	:GHK	1	:*	7bdf,133x31,0,0{66x31,0,0,13,66x31,67,0[66x15,67,0,14,66x15,67,16,15]}	off
+window	kontext	2	:fish	0	:-	5795,133x31,0,0,16	:
+window	terraform	1	:	0	:-	5796,133x31,0,0,17	off
+window	terraform	2	:fish	1	:*	5797,133x31,0,0,18	:
+window	terraform	3	:fish	0	:	5798,133x31,0,0,19	:
+window	uts	1	:nvim	1	:*	9c40,133x31,0,0{66x31,0,0,24,66x31,67,0[66x15,67,0,25,66x15,67,16,26]}	:
+window	vw	1	:	1	:*	d78f,133x31,0,0,20	off
+state	base	

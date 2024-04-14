@@ -1,0 +1,11 @@
+pane	base	1	0	:-	0	[daniel-wor] v ~	:/home/djlie98	1	nvim	:/squashfs-root/usr/bin/nvim
+pane	base	2	1	:*	0	[daniel-wor] ~/P/v/vulcan-frontend	:/home/djlie98/Projects/vulcan/vulcan-frontend	0	fish	:[fish] <defunct>
+pane	base	2	1	:*	1	[daniel-wor] ~/P/v/vulcan-frontend	:/home/djlie98/Projects/vulcan/vulcan-frontend	0	fish	:
+pane	base	2	1	:*	2	[daniel-wor] ~/P/v/vulcan-backend	:/home/djlie98/Projects/vulcan/vulcan-backend	1	fish	:[fish] <defunct>
+pane	base	3	0	:	0	[daniel-wor] k9s ~/.c/k9s	:/home/djlie98/.config/k9s	1	k9s	:k9s
+pane	config	1	1	:*	0	[daniel-wor] v ~/	:/home/djlie98	1	nvim	:/squashfs-root/usr/bin/nvim
+window	base	1	:nvim	0	:-	c3ff,187x45,0,0,2	:
+window	base	2	:processes	1	:*	4e16,187x45,0,0[187x22,0,0{93x22,0,0,7,93x22,94,0,12},187x22,0,23,6]	off
+window	base	3	:k9s	0	:	622f,187x45,0,0,10	off
+window	config	1	:	1	:*	c405,187x45,0,0,8	off
+state	config	base

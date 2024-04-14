@@ -1,0 +1,5 @@
+pane	base	1	0	:-	0	[daniel-wor] v ~	:/home/djlie98	1	nvim	:/squashfs-root/usr/bin/nvim
+pane	base	2	1	:*	0	[daniel-wor] ~	:/home/djlie98	1	fish	:
+window	base	1	:nvim	0	:-	c3fd,187x45,0,0,0	:
+window	base	2	:fish	1	:*	c400,187x45,0,0,3	:
+state	base	
