@@ -1,0 +1,10 @@
+k9s:
+  body:
+    bgColor: 'default'
+    fgColor: 'default'
+  views:
+    table:
+      bgColor: 'default'
+    logs:
+      bgColor: 'default'
+      fgColor: 'default'
