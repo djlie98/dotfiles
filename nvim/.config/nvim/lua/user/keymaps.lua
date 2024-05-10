@@ -300,6 +300,14 @@ nnoremap("<leader>fw", require("telescope.builtin").live_grep, { desc = "[F]ind 
 nnoremap("<leader>fp", ":Telescope neovim-project discover<CR>", { desc = "[F]ind [p]rojects" })
 nnoremap("<leader>fP", ":Telescope neovim-project history<CR>", { desc = "[F]ind Recent [P]rojects" })
 
+nnoremap("<leader>fg", function()
+	require("telescope").extensions.git_worktree.git_worktrees()
+end, { desc = "[F]ind [G]it Worktrees" })
+
+nnoremap("<leader>fG", function()
+	require("telescope").extensions.git_worktree.create_git_worktree()
+end, { desc = "Create New Git Worktree" })
+
 nnoremap("<leader>fc", function()
 	require("telescope.builtin").commands(require("telescope.themes").get_dropdown({
 		previewer = false,

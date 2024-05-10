@@ -207,6 +207,7 @@ return {
 		dependencies = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
 		opts = {
 			settings = {
+				separate_diagnostic_server = false,
 				expose_as_code_action = "all",
 			},
 		},

@@ -36,6 +36,7 @@ return {
 
 			-- Enable telescope fzf native, if installed
 			pcall(require("telescope").load_extension, "fzf")
+			require("telescope").load_extension("git_worktree")
 		end,
 	},
 }
