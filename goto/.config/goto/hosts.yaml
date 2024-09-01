@@ -1,0 +1,50 @@
+- host:
+    title: VW Experiment 5
+    address: experiment-5.veriwise.datasaur.ai
+    username: azureuser
+    identity_file_path: ~/Downloads/vw-experiment.pem
+- host:
+    title: Github Runner 05
+    address: 52.168.175.115
+    username: azureuser
+    identity_file_path: ~/Downloads/kp-gh-runner-01.pem
+- host:
+    title: Github Runner 02
+    address: 4.227.169.127
+    username: azureuser
+    identity_file_path: ~/Downloads/kp-gh-runner-01.pem
+- host:
+    title: Github Runner 03
+    address: 40.76.253.148
+    username: azureuser
+    identity_file_path: ~/Downloads/kp-gh-runner-01.pem
+- host:
+    title: Github Runner 01
+    address: 20.231.122.9
+    username: azureuser
+    identity_file_path: ~/Downloads/kp-gh-runner-01.pem
+- host:
+    title: Github Runner 04
+    address: 40.76.252.229
+    username: azureuser
+    identity_file_path: ~/Downloads/kp-gh-runner-01.pem
+- host:
+    title: Golf VW Test Environment
+    address: 20.55.65.199
+    username: azureuser
+    identity_file_path: ~/.ssh/vw-experiment.pem
+- host:
+    title: GovCloud Load Test
+    address: 54.162.217.109
+    username: ubuntu
+    identity_file_path: /home/djlie98/.ssh/gov-cloud-load-test.pem
+- host:
+    title: VW Demo
+    address: 172.172.90.234
+    username: vulcan
+    identity_file_path: /home/djlie98/Downloads/vulcan.pem
+- host:
+    title: DISA Demo
+    address: 48.217.26.128
+    username: azureuser
+    identity_file_path: ~/.ssh/vw-experiment.pem
