@@ -1,0 +1,13 @@
+pane	base	1	1	:*	0	djlie	:/home/djlie	1	zsh	:
+pane	bca	1	1	:*	0	djlie	:/home/djlie/Projects/datasaur-kontext	1	zsh	:
+pane	elixir	1	1	:*	0	djlie	:/home/djlie	1	zsh	:
+pane	nix	1	1	:*	0	djlie	:/home/djlie/Projects/python_playground	1	zsh	:
+pane	scratch	1	1	:*	0	djlie	:/home/djlie/Projects/python_playground	1	zsh	:
+pane	vw	1	1	:*	0	djlie	:/home/djlie	1	zsh	:
+window	base	1	:zsh	1	:*	b07e,180x41,0,0,1	:
+window	bca	1	:zsh	1	:*	b081,180x41,0,0,4	:
+window	elixir	1	:zsh	1	:*	b07f,180x41,0,0,2	:
+window	nix	1	:zsh	1	:*	b080,180x41,0,0,3	:
+window	scratch	1	:zsh	1	:*	ae82,142x31,0,0,5	:
+window	vw	1	:zsh	1	:*	b083,180x41,0,0,6	:
+state	vw	bca

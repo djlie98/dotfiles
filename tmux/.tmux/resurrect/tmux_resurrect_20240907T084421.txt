@@ -1,0 +1,7 @@
+pane	base	1	1	:*	0	djlie	:/home/djlie	1	zsh	:
+pane	elixir	1	1	:*	0	djlie	:/home/djlie/Projects/elixir-playground	1	zsh	:
+pane	nix	1	1	:*	0	djlie	:/home/djlie	1	zsh	:
+window	base	1	:zsh	1	:*	b07e,180x41,0,0,1	:
+window	elixir	1	:zsh	1	:*	b07f,180x41,0,0,2	:
+window	nix	1	:zsh	1	:*	b080,180x41,0,0,3	:
+state	nix	base

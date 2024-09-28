@@ -61,4 +61,5 @@ return {
 			"rcarriga/nvim-notify",
 		},
 	},
+  { 'echasnovski/mini.icons', version = false },
 }

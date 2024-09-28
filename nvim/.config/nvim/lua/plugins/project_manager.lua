@@ -4,6 +4,7 @@ return {
 		projects = { -- define project roots
 			"~/Projects/*",
 			"~/.config/*",
+      "~/configuration/"
 		},
 	},
 	init = function()

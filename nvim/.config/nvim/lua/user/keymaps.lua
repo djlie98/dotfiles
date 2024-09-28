@@ -96,10 +96,8 @@ nnoremap("S", function()
 	vim.api.nvim_feedkeys(keys, "n", false)
 end)
 
-wk.register({
-	["<leader>s"] = {
-		name = "Search",
-	},
+wk.add({
+  { "<leader>s", group = "Search" },
 })
 -- Open Spectre for global find/replace
 nnoremap("<leader>sr", function()
@@ -170,10 +168,8 @@ end, { desc = "Diagnostics" })
 -- Place all dignostics into a qflist
 nnoremap("<leader>cd", vim.diagnostic.setqflist, { desc = "Quickfix [L]ist [D]iagnostics" })
 
-wk.register({
-	["<leader>c"] = {
-		name = "Quickfix",
-	},
+wk.add({
+  { "<leader>c", group = "Quickfix" },
 })
 -- Navigate to next qflist item
 nnoremap("<leader>cn", ":cnext<cr>zz")
@@ -210,10 +206,8 @@ nnoremap("gx", ":sil !open <cWORD><cr>", { silent = true })
 -- Harpoon keybinds --
 -- Open harpoon ui
 
-wk.register({
-	["<leader>h"] = {
-		name = "Harpoon",
-	},
+wk.add({
+  { "<leader>h", group = "Harpoon" },
 })
 nnoremap("<leader>hh", function()
 	harpoon_ui.toggle_quick_menu()
@@ -255,10 +249,8 @@ nnoremap("<leader>5", function()
 	harpoon_ui.nav_file(5)
 end, { desc = "Go to Harpoon Mark 5" })
 
-wk.register({
-	["<leader>g"] = {
-		name = "Git/Go",
-	},
+wk.add({
+  { "<leader>g", group = "Git/Go" },
 })
 -- Git keymaps --
 nnoremap("<leader>gb", ":Gitsigns toggle_current_line_blame<cr>")
@@ -282,10 +274,8 @@ nnoremap("<leader>gf", function()
 	end
 end, { desc = "Search [G]it [F]iles" })
 
-wk.register({
-	["<leader>f"] = {
-		name = "Find",
-	},
+wk.add({
+  { "<leader>f", group = "Find" },
 })
 
 -- Telescope keybinds --
@@ -444,10 +434,8 @@ tnoremap("<C-l>", [[<Cmd>wincmd l<CR>]])
 tnoremap("<space>", "<space>")
 
 -- Flash Keybinds
-wk.register({
-	["<leader>j"] = {
-		name = "Flash Jump",
-	},
+wk.add({
+  { "<leader>j", group = "Flash Jump" },
 })
 
 nnoremap("<leader>jj", function()
@@ -463,10 +451,8 @@ nnoremap("<leader>jr", function()
 end, { desc = "Flash Treesitter Search" })
 
 -- Terminal Keymaps
-wk.register({
-	["<leader>t"] = {
-		name = "Terminal",
-	},
+wk.add({
+  { "<leader>t", group = "Terminal" },
 })
 
 nnoremap("<C-\\>", function()
@@ -492,5 +478,8 @@ nnoremap("<leader>i", ":TSToolsAddMissingImports<CR>:TSToolsOrganizeImports<CR>"
 nnoremap("<leader>gg", ":Octo<CR>", { desc = "Open Octo Menu" })
 nnoremap("<leader>gp", ":Octo search is:pr is:open review-requested:@me<CR>", { desc = "List PR Requested Reviews" })
 nnoremap("<leader>ga", ":Octo search is:pr is:open author:@me<CR>", { desc = "List PR Author Me" })
+
+-- Copy file to clipboard
+nnoremap("<leader>cwd", ":let @+=expand('%:p')<CR>", { desc = "Copy [W]orking [D]irectory" })
 
 return M
